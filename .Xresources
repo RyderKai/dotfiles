@@ -1,0 +1,50 @@
+! Font settings
+XTerm*faceName: Terminess Nerd Font
+XTerm*faceSize: 11
+
+! Colors - Lain theme
+XTerm*background: #0f0f14
+XTerm*foreground: #c5c8c6
+XTerm*cursorColor: #ff79c6
+
+XTerm*color0:  #0f0f14
+XTerm*color1:  #ff5555
+XTerm*color2:  #ffb86c
+XTerm*color3:  #50fa7b
+XTerm*color4:  #ff79c6
+XTerm*color5:  #ff92df
+XTerm*color6:  #8be9fd
+XTerm*color7:  #c5c8c6
+XTerm*color8:  #44475a
+XTerm*color9:  #ff6e6e
+XTerm*color10: #69ff94
+XTerm*color11: #ffffa5
+XTerm*color12: #d6acff
+XTerm*color13: #ff92df
+XTerm*color14: #ffb86c
+XTerm*color15: #ffffff
+
+! Scrollback and scrollbar
+XTerm*saveLines: 10000
+XTerm*scrollBar: false
+XTerm*rightScrollBar: true
+XTerm*scrollBar_floating: false
+XTerm*jumpScroll: true
+XTerm*multiScroll: true
+
+! Other preferences
+XTerm*loginShell: true
+XTerm*bellIsUrgent: false
+XTerm*visualBell: false
+XTerm*urgentOnBell: false
+
+! Keybindings
+XTerm*VT100.Translations: #override \
+  Ctrl Shift <Key>C: copy-selection(CLIPBOARD) \n\
+  Ctrl Shift <Key>V: insert-selection(CLIPBOARD) \n\
+  Ctrl Shift <Key>plus: larger-vt-font() \n\
+  Ctrl Shift <Key>minus: smaller-vt-font() \n\
+  Ctrl Shift <Key>0: set-vt-font(d) \n\
+  Ctrl <Key>L: clear-saved-lines()
+
+XTerm*cursorUnderline: true
