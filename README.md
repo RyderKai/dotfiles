@@ -26,7 +26,7 @@ Installation & Usage
 
     Clone the repo:
 
-git clone https://github.com/yourusername/i3-setup.git ~/.config/i3
+git clone https://github.com/RyderKai/i3-setup.git ~/.config/i3
 
 Copy or symlink the polybar configs and scripts:
 
